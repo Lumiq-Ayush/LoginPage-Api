@@ -16,7 +16,8 @@ app.use('/api/ping', (req, res) => {
 
 app.use('/api', routes);
 
-app.listen(3000, err => {
+
+app.listen(8000, err => {
     if (err) {
         console.log('Cannot Listen Server', err);
     }
