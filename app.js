@@ -21,7 +21,7 @@ app.listen(8000, err => {
     if (err) {
         console.log('Cannot Listen Server', err);
     }
-    console.log("Server is running on port 3000");
+    console.log("Server is running on port 8000");
 });
 
 module.exports = {
